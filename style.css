@@ -1,0 +1,11 @@
+.error {
+    background-color: #EA2027;  /*erro quando nao tiver a palavra typeme */
+}
+
+/* add spacing between words */ 
+span::after { 
+    
+    content:"";
+    display: inline-block;
+    width: 6px;
+}
