@@ -9,3 +9,7 @@ span::after {
     display: inline-block;
     width: 6px;
 }
+.highlight {
+    color: #FFC312;
+    text-decoration: underline;
+}
