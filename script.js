@@ -38,7 +38,7 @@ function startGame() {
 }
 
 function checkInput(){     // we are reading/manipulating the value;
-    const currentWord = wordQueue[0].replaceAll(".", "").replaceAll(",", ""); //first word in the wordqueue array;
+    const currentWord = wordQueue[0].replaceAll(".", "").replaceAll(",", "").replaceAll(";", ""); //first word in the wordqueue array;
     //relaceAll -> clear the ponctuation;
     const typedValue = input.value.trim(); //JS string method -> controla os espaços a +. 
      
