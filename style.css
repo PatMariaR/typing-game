@@ -13,3 +13,15 @@ span::after {
     color: #FFC312;
     text-decoration: underline;
 }
+.winner {
+    background-image: url(https://img.freepik.com/free-vector/birthday-colorful-confetti-transparent-background_1035-23618.jpg);
+}
+.rocket {
+    display: block;
+    width: 60px;
+    height: 34px;
+    margin-left: 20px;
+    background: url(https://cdn.glitch.me/fe55c52b-f859-4f17-a4c6-1af45426e959%2Frocket.png) right center no-repeat;
+    background-size: 60px;
+
+}
